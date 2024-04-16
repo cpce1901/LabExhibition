@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "main": "url('./assets/main.jpeg')",
+
+      }
+    },
+    fontFamily: {
+      "exo": ['"exo 2"'],
+      "rale": ['"Raleway"'],
+      "robo": ['"Roboto"'],
+    },
   },
   plugins: [],
 }

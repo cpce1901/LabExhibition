@@ -1,7 +1,12 @@
+import { Fade, Roll, Zoom, Slide } from "react-awesome-reveal";
+import HeroPrincipal from "../../components/HeroPrincipal";
+
 const Home = () => {
     return (
         <>
-        <h1>Home</h1>
+            <Fade duration={500}>
+                < HeroPrincipal />
+            </Fade>
         </>
     )
 }
